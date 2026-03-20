@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SS Fancy Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <div>
+    <h2>SS Fancy Store</h2>  <!-- Fixed: changed h20 to h2 -->
+  </div>
+</header>
+
+<div class="banner-container">
+    <img src="https://i.ibb.co/gMC2rJRq/3755-E4-C6-3-F56-4170-9-A28-A78852820-EB7.jpg" alt="SS Fancy Banner" class="center-banner">
+</div>
+    
+<!-- HERO -->
+<section class="hero">
+  <div>
+    <p>Trendy Fashion for Everyone in Pokhara</p>
+    <button onclick="window.location.href='#categories'">Explore Now</button>  <!-- Fixed: Added navigation -->
+  </div> 
+</section>
+    
+<!-- CATEGORIES -->
+<section class="categories" id="categories">
+  <h2>Shop Categories</h2>
+  <div class="grid">
+    <div class="card">Men Wear</div>
+    <div class="card">Women Wear</div>
+    <div class="card">Kids Collection</div>
+    <div class="card">Old Age Comfort</div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products">
+  <h2>Featured Products</h2>
+
+  <div class="product-grid">
+
+    <div class="product">
+      <img src="https://image2url.com/r2/default/images/1773938021444-568f6991-6331-45f1-aa9a-fe9268bf9ad8.jpeg" alt="Ronaldo Jersey" onerror="this.src='https://via.placeholder.com/300x300?text=Product+Image'">
+      <h3>Al Nassr Ronaldo Jersey</h3>
+      <p>Rs. 1000</p>
+      <button onclick="orderWhatsApp('Al Nassr Ronaldo Jersey','Rs. 1000','https://image2url.com/r2/default/images/1773938021444-568f6991-6331-45f1-aa9a-fe9268bf9ad8.jpeg')">
+        Order on WhatsApp
+      </button>
+    </div>
+
+    <div class="product">
+      <img src="https://image2url.com/r2/default/images/1773938531066-123725a8-b58c-44ab-a637-ce2b2983ca38.jpeg" alt="Real Madrid Jersey" onerror="this.src='https://via.placeholder.com/300x300?text=Product+Image'">
+      <h3>Real Madrid Emirates Jersey</h3>  <!-- Fixed: corrected text -->
+      <p>Rs. 1000</p>
+      <button onclick="orderWhatsApp('Real Madrid Emirates Jersey','Rs. 1000','https://image2url.com/r2/default/images/1773938531066-123725a8-b58c-44ab-a637-ce2b2983ca38.jpeg')">  <!-- Fixed: corrected product name and image -->
+        Order on WhatsApp
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>📍 Pokhara, Gharipatan-17</p>
+  <p>📞 <a href="tel:9862238571" style="color: white; text-decoration: none;">9862238571</a></p>  <!-- Fixed: made phone clickable -->
+  <p>© 2026 SS Fancy Store</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+    </html>
